@@ -6,7 +6,6 @@
     list-style: none;
     text-decoration: none;
     --swiper-theme-color: rgb(15, 10, 68);
-
 }
 
 body{
@@ -81,16 +80,21 @@ section{
 }
 
 .Bienvenidx{
-    justify-content:center;
+    background-image: url("/img/fondo.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size:contain;
+
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
 }
 
 #bienvenidxLogo{
-    width: 30%;
+    width: 70%;
     height: auto;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 
 
