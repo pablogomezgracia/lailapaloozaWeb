@@ -69,7 +69,7 @@ main{
 }
 
 section{
-    border-style: solid none;
+    border-style:  none;
     border-width: 4px;
     border-color: rgb(15, 20, 68);
     height: 550px;
@@ -108,7 +108,38 @@ section{
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    height: 1000px;
 }
+#fotoFelicidades{
+    height: 49%;
+    margin: 10px;
+    width: auto;
+}
+.swiper-container-1{
+    width: 70%;
+    height: 49%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.swiper-container-1 .swiper-slide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.swiper-container-1 .swiper-slide img{
+    max-width: 90%;
+    max-height: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+}
+
+
+
 
 .Cartel{
     height: auto;

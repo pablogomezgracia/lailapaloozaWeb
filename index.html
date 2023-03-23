@@ -37,7 +37,32 @@
 
 
             <section class="Felicidades" id="Felicidades">
-                <img src="/img/" alt="fotoFelicidades" id="fotoFelicidades">  
+                
+                <div class="swiper-container-1 swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides --> 
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-1021.gif'></div>   
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-1062.gif'></div>   
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-1096.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-298.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-301.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-597.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-826.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-866.gif'></div>  
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-874.gif'></div> 
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-890.gif'></div>   
+                    <div class='swiper-slide'><img class='galleryPhotos' src='/img/gifs/bday-941.gif'></div>  
+                   
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination2"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <img src="/img/lailaFelicidades.png" alt="fotoFelicidades" id="fotoFelicidades">  
                 <div class="welcome_info">
                     <h1>Felicidades guarra</h1>
                 </div>    
@@ -67,5 +92,29 @@
         </div>   
     </footer>
 <script src="main.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>//Code for the swipping of the pictures
+    var swiper1 = new Swiper('.swiper-container-1', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination1',
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+    });
+</script>
 </body>
 </html>
