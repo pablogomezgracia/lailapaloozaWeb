@@ -155,6 +155,15 @@ footer{
 .contact_info li{
     margin-top: 10px;
 }
+.contact_info a{
+    text-decoration: none;
+    color: white;
+}
+.contact_info li a:hover{
+    color: rgb(250, 48, 233);
+    text-decoration: underline;
+    cursor: pointer;    
+    }
 .contactMail:hover{
     color: rgb(250, 48, 233);
     text-decoration: underline;
