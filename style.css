@@ -110,7 +110,16 @@ section{
     flex-direction: column;
 }
 
+.Cartel{
+    height: auto;
+    margin-bottom: 200px;
+}
 
+#cartel{
+    margin: 20px;
+    height: 800px;
+    width: auto;
+}
 
 
 
