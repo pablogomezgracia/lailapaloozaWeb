@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    list-style: none;
+    text-decoration: none;
+    --swiper-theme-color: rgb(15, 10, 68);
+
+}
+
+body{
+    background-color: blueviolet;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color:rgb(15, 20, 68);
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo_container{   
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.logo_container img{
+    height: 60px;
+    margin: 4px;
+
+}
+.header_container{
+    margin-right: 40px;
+    display: flex;
+}
+#florLogo{
+    height: 40px;
+    margin: 0px;
+}
+.navigation_menu{   
+    color: white;
+    display: inline-block;
+  }
+  
+.navigation_menu a{
+    font-size: 18px;
+    padding-right:20px;   
+}
+.navigation_menu a:last-child{
+    padding-right: 0px;
+}
+
+.navigation_menu a:hover {
+    text-decoration: underline;
+    text-decoration-line: solid;
+    cursor: pointer;
+}
+
+
+main{
+    min-height: 100vh;
+    padding-top:66px;
+    margin-bottom: -200px;
+}
+
+section{
+    border-style: solid none;
+    border-width: 4px;
+    border-color: rgb(15, 20, 68);
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Bienvenidx{
+    justify-content:center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#bienvenidxLogo{
+    width: 30%;
+    height: auto;
+    margin-left: 10vw;
+}
+
+
+
+
+footer, .push{
+    height: 200px;
+    width: 100%;
+}
+
+footer{
+    color: white;
+    display: block;
+    background-color:rgb(15, 20, 68);
+}
+.inner_footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact_info{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.contact_info li{
+    margin-top: 10px;
+}
+.contactMail:hover{
+    color: rgb(15, 20, 68);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact_socialmedia{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 15px 0 10px 0;
+}
+.contact_socialmedia li{
+margin: 0 15px;
+}
+.contact_socialmedia li a:hover{
+color: rgb(15, 20, 68);
+text-decoration: underline;
+cursor: pointer;    
+}
+.contact_socialmedia li a{
+text-decoration: none;
+color: white;
+}
+.contact_socialmedia li a i{
+font-size: 25px;
+}
